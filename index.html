@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahady-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/112a5e928f.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+</head>
+
+
+
+<body>
+
+ <!---------------Header Start----------------->   
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/ashek-logo-2.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>   
+                    <li><a href="#protfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Mortuja</span> 
+                    <br>Morshed</h1> -->
+                
+                <h3>Hello, It's Me</h3>
+                <h1><span>Ashek-Al-</span> Mahady</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+            </div>
+        </div>
+    </div>
+
+
+   <!---------------Header End----------------->   
+   
+    
+
+<!---------------About Start----------------->
+<div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/portfolio_2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>I bridge the realms of Software Quality Assurance (SQA) and Web Development, ensuring glitch-free 
+                        software while crafting engaging web solutions. Let's create a seamless digital experience together.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div> 
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB DEVELOPER</span><br>Web Application Development.</li>
+                            <li><span>AUTOMATION TESTING</span><br>Testing Web applications with Automation.</li>
+                            <li><span>MANUAL TESTING</span><br>Testing Web/Mobile applications with Manual.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May-2023 – Aug-2023</span><br>Trainee Software Engineer (Artificial
+                                Intelligence) at ADN Diginet Ltd.</li>
+                            <!-- <li><span>May-2022 – June-2023</span><br>Software Engineer at Softpreneur Solutions.</li> -->
+                            <li><span>Sep-2021 – Dec-2021</span><br>Teacher Assistant at American International University-Bangladesh (AIUB).</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>BSc from American International University Bangladesh (AIUB). </li>
+                            <li><span>2017</span><br>HSC from Govt. Debendra College.</li>
+                            <li><span>2015</span><br>SSC from Manikganj Govt. High School. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------About End----------------->
+
+
+
+
+
+<!---------------Services Start----------------->
+ <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Front-end and back-end expertise enables seamless functioning and design when creating responsive and dynamic websites by integrating design and technology for excellent user experiences.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-vial-virus"></i>
+                    <h2>Manual Testing</h2>
+                    <p> Improving the performance of software. To provide a pleasant user experience and to ensure quality, security, and performance, we thoroughly test, uncover flaws, and improve software.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-vial-circle-check"></i>
+                    <h2>Automation Testing</h2>
+                    <p> To automate testing operations, test scripting and software tester-written code are utilised. To construct test scripts and validate the product, testers use relevant automation technologies. 
+                        
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------Services End----------------->
+
+
+
+   
+    
+<!---------------Portfolio Start----------------->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span>Works</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/portfolio1.jpg">
+                    <div class="layer">
+                        <h3>Bank Automation</h3>
+                        <p> Bank automation using Selenium and Java involves creating scripts to perform automated tasks such as account management, transactions, and data retrieval, 
+                            enhancing efficiency and accuracy in banking operations.</p>
+                        <a href="https://github.com/Mahady-95/Bank_Automation.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio2.jpg">
+                    <div class="layer">
+                        <h3> Weather App</h3>
+                        <p> A sales CRM Selenium Java application automates customer relationship management tasks, using Selenium and Java for web-based interactions, 
+                            enhancing sales efficiency and data management..</p>
+                        <a href="https://github.com/Mahady-95/salesCRM_Automation_Test.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio3.jpg">
+                    <div class="layer">
+                        <h3>E-Commerce (Automation)</h3>
+                        <p> I’m working on account creation, login, registration, product
+                            add to cart, payment process and sign-out for this Project.</p>
+                        <a href="https://github.com/Mortuja522/SeleniumProject/tree/main/MyStoreProject"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio4.jpg">
+                    <div class="layer">
+                        <h3>Food Court</h3>
+                        <p> The Food Court Management System streamlines food product management, handling sales, 
+                            products analysis for efficient food court operations.</p>
+                        <a href="https://github.com/Mortuja522/Object-Oriented-Programming-1-JAVA-/tree/main/Food%20Court%20Managment%20System(JAVA)"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio5.jpg">
+                    <div class="layer">
+                        <h3>Flight Management</h3>
+                        <p> Flight Management System: Streamlines Airline Enquiries, Passenger Bookings. Admins efficiently manage Reservations. </p>
+                        <a href="https://github.com/ashrhmn/FMS-Laravel-Backend"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio6.jpg">
+                    <div class="layer">
+                        <h3> Online Medicine and Healthcare</h3>
+                        <p> Healthcare portal: Admin controls meds, healthcare; users access services, 
+                            view Doctors' info, reviews. </p>
+                        <a href="#protfolio"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#protfolio" class="btn">See more</a>
+
+
+        </div>
+    </div>
+<!---------------Portfolio End------------------->
+
+
+
+
+
+ <!---------------Contact Start----------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me!</span></h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ashek.mahady.aiub@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+8801883379728</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Mahady-95"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ashek-al-mahady-942366167/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Ashek-Al-Mahady_CV.pdf"  download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2023 by Ashek-Al-Mahady, <i class="fa-solid fa-heart"></i> All Rights Reserved</p>
+        </div>
+    </div>
+<!---------------Contact End------------------->
+
+
+
+
+
+<!---------------about scripts start-------------------> 
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+          
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+
+    </script>
+<!---------------about scripts end------------------->
+
+
+    
+
+<!---------------small display sidemenu  scripts starts------------------->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+<!---------------small display sidemenu  scripts End------------------->
+
+
+
+
+<!---------------form-to-google-sheet scripts Start------------------->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyjpx_QOP2XdMjOcHy_ejK3wefKyJu04_1hOl4b0HfWKThKZByNnzYXHt5ig6MmeNKdYg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")  
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!---------------form-to-google-sheet scripts End------------------->
+
+
+
+   <!---------------typed js------------------->
+   
+   <script>
+    const typed = new Typed('.multiple-text', {
+      strings: ['Web Developer', 'SQA Engineer'],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true
+    });
+  </script>
+</body>
+</html>
